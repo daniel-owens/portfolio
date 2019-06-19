@@ -1,10 +1,4 @@
-
-// carousel 
-$('#myCarousel').carousel({
-  interval: 2000
-})
-
-var config = {
+const config = {
   apiKey: "AIzaSyC533cKqcxlpUpvwbt-LqhmzG1m1djg3Y8",
   authDomain: "portfolio-contact-database.firebaseapp.com",
   databaseURL: "https://portfolio-contact-database.firebaseio.com",
@@ -14,18 +8,18 @@ var config = {
 };
 
 firebase.initializeApp(config);
-var database = firebase.database();
+const database = firebase.database();
 
 
 // contact form jQuery
 $(document).on("click", "#submit-button", function(){
     event.preventDefault();
 
-    var firstName = $('#form_firstname').val().trim();
-    var lastName = $('#form_lastname').val().trim();
-    var email = $('#form_email').val().trim();
-    var phone = $('#form_phone').val().trim();
-    var message = $('#form_message').val().trim();
+    const firstName = $('#form_firstname').val().trim();
+    const lastName = $('#form_lastname').val().trim();
+    const email = $('#form_email').val().trim();
+    const phone = $('#form_phone').val().trim();
+    const message = $('#form_message').val().trim();
 
     database.ref().push({
         firstname: firstName,
