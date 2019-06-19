@@ -59,6 +59,16 @@ body {
   top: 160px;
 }
 
+h2 {
+  position: relative;
+  bottom: 100px;
+}
+
+.about-p {
+  position: relative;
+  bottom: 100px;
+}
+
 h3 {
   position: relative;
   bottom: 75px;
