@@ -62,11 +62,13 @@ body {
 h2 {
   position: relative;
   bottom: 100px;
+  text-align: center;
 }
 
 .about-p {
   position: relative;
   bottom: 100px;
+  text-align: center;
 }
 
 h3 {
@@ -78,6 +80,18 @@ h3 {
   background-color: transparent;
   border: 1px solid;
   color: black;
+}
+
+#form_message {
+  color: aqua;
+}
+
+.form_message {
+  color: aqua;
+}
+
+#form-control {
+  color: aqua;
 }
 
 #head-shot {
@@ -94,11 +108,22 @@ h3 {
 
 #portfolio-header {
   position: relative;
+  top: 150px;
 }
 
-.col-md-4 {
+.col-md-6 {
   position: relative;
-  top: 75px;
+  top: 50px;
+}
+
+.col-md-12 {
+  position: relative;
+  top: 100px;
+}
+
+.sample-work {
+  position: relative;
+  top: 120px;
 }
 
 .portfolio-image {
@@ -124,12 +149,19 @@ img {
 #about-me {
   color: white;
   position: relative;
-  bottom: 45px;
+  top: 25px;
+}
+
+.form-group {
+  position: relative;
+  bottom: 50px;
 }
 
 .project-desc {
   color: white;
   margin-top: 15px;
+  margin-left: 140px;
+  max-width: 300px;;
 }
 
 .copyright {
